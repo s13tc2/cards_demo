@@ -3,6 +3,11 @@
 __all__ = ['Deck', 'hamel']
 
 # Cell
+#hide
+from nbdev.showdoc import *
+from .card import Card
+
+# Cell
 class Deck:
     """Represents a deck of cards.
     Attributes:
